@@ -1,0 +1,128 @@
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.10);
+  border-radius: 28px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  flex-basis: 31%;
+}
+
+.card:hover {
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cardImage {
+  width: 384px;
+  height: 250px;
+  object-fit: cover;
+
+}
+
+.cardText {
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.cardTitle {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.cardTitleReg {
+  font-weight: 400;
+}
+
+.cardHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.cardTag {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  background: #262626;
+  border-radius: 2px;
+  color: #fff;
+  padding: 1px 8px;
+}
+
+.cardInfo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #8C8C8C;
+  margin-top: 10px;
+}
+
+.cardButtons {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.cardPriceBolded {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 32px;
+}
+
+.rating {
+  margin-right: 26px;
+  color: #ffc107;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.ingredients {
+  color: #8c8c8c;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.price,
+.category {
+  font-size: 18px;
+  line-height: 32px;
+  color: #8C8C8C;
+}
+
+.category {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 150px;
+}
+
+.price {
+  margin-right: 10px;
+}
+
+.price:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #8C8C8C;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-left: 10px
+}
+
+.ratingStar {
+  margin-right: 8px;
+}

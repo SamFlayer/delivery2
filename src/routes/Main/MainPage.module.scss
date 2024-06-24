@@ -1,0 +1,23 @@
+.container {
+  max-width: 93%;
+  padding-top: 18px;
+  margin: auto;
+}
+
+@media (max-width: 1366px) {
+  .container {
+      max-width: 960px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+      max-width: 700px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      width: 100%;
+  }
+}
